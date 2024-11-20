@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+        <div class="container-header">
+            <h1>System E-Voting</h1>
+        </div>
+        
+        <div class="container">
+            <h3>Login Akun</h3>
+            <form action="login.php" method="post">
+                <input type="text" name="name" placeholder="Nama" required> <br><br>
+                <input type="password" name="password" placeholder="Kata Sandi" required> <br><br>
+                <select name="role" required>
+                    <option value="1">Voter</option>
+                    <option value="2">Group</option>
+                </select> <br><br>
+                <button class="masuk" type="submit">Masuk</button> <br><br>       
+                Belum Punya Akun? <a href="register.html">Daftar</a> <br><br>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
